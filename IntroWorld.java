@@ -1,16 +1,16 @@
 import greenfoot.*;
 
 /**
- * Write a description of class IntroWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * IntroWorld. a start screen for the program
+ *
+ * @author LukasH0lm
+ * @version 2
  */
 public class IntroWorld extends World
 {
     private static final int WORLD_WIDTH = 500;
     private static final int WORLD_HEIGHT = 700;
-
+    public GreenfootSound introMusik = new GreenfootSound("IntroMusik.wav");
     /**
      * Constructor for objects of class IntroWorld.
      */
@@ -20,6 +20,7 @@ public class IntroWorld extends World
         setBackground("IntroScreen.png");
         GreenfootImage background = getBackground();
         background.setColor(Color.BLACK);
+        introMusik.play();
     }
     
     public void act()
@@ -27,6 +28,7 @@ public class IntroWorld extends World
         String key = Greenfoot.getKey();
         if (key != null && key.equals("enter"))
         {
+            introMusik.stop();
             Greenfoot.setWorld(new PingWorld(true));
         }
     }

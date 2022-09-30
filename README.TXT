@@ -1,12 +1,6 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Ping
+PURPOSE OF PROJECT: Compulsory Assignment
+VERSION or DATE: 3.0
+HOW TO START THIS PROJECT: open in Greenfoot
+AUTHORS: LukasH0lm
+USER INSTRUCTIONS: run the program to experience the heart of french culture
